@@ -11,6 +11,7 @@ cd /var/www/wordpress
 sudo cp wp-config-sample.php wp-config.php
 cd ..
 sudo chown -R www-data:www-data /var/www/wordpress
+sudo rm /var/www/latest.tar.gz
 
 # AmazonCloudWatch Agent
 sudo apt update -y
