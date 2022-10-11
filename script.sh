@@ -12,7 +12,7 @@ sudo cp /tmp/wordpress/wp-config-sample.php /tmp/wordpress/wp-config.php
 sudo cp -a /tmp/wordpress/. /var/www/wordpress
 sudo chown -R www-data:www-data /var/www/wordpress
 
-# AmazonCloudWatchAgent
+# AmazonCloudWatch Agent
 sudo apt update -y
 sudo mkdir /tmp/cwa
 cd /tmp/cwa
@@ -21,7 +21,7 @@ sudo apt-get install -y unzip
 sudo unzip -o AmazonCloudWatchAgent.zip
 sudo ./install.sh
 
-#AmazonCodeDeploy
+#AmazonCodeDeploy Agent
 sudo apt update -y
 sudo apt install ruby wget -y
 cd /home/ubuntu
